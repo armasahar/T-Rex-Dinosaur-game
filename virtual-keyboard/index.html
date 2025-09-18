@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <input type="text" id="display" placeholder="Type here">
-    </div>
-    <!-- keyboard design start -->
+   <div class="switch">
+  <div class="slider"></div>
+  <span class="option active" data-value="keyboard">Use keyboard</span>
+  <span class="option" data-value="mouse">Use mouse</span>
+</div>
 
+    <!-- keyboard design start -->
+    
     <div class="container">
+        <input type="text" id="display" placeholder="Type here">
         <!-- function keys -->
         <div class="row funtion-key">
             <button class="esc" data-key="esc">esc</button>
