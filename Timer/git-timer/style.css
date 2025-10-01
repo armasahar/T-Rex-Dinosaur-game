@@ -1,0 +1,61 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appWrapper {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+#duration {
+  position: relative;
+  bottom: 200px;
+
+  background-color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 15px;
+  text-align: center;
+  width: 6rem;
+  height: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+}
+
+#duration:focus {
+  outline: none;
+}
+
+.buttons {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  margin: 1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+#pause {
+  width: 6rem;
+}
