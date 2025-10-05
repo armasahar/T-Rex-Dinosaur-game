@@ -42,7 +42,7 @@ document.addEventListener("keydown", (e) => {
 
 function create_cactus(){
     const cactus = document.createElement("img");
-    const types = ["/Dino/assets/cactus1.png", "/Dino/assets/cactus3.png"]
+    const types = ["./assets/cactus1.png", "./assets/cactus3.png"]
 
     cactus.src = types[Math.floor(Math.random() * types.length)];
     cactus.classList.add("cactus");
